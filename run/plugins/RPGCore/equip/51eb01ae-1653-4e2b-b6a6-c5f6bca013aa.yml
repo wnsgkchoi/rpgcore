@@ -1,0 +1,35 @@
+slots:
+  cape:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4325
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:lore: '[{color:"white",text:"장비 업데이트로 인해 초기화된 장비에 대한 보상"},{color:"white",text:"다른
+        장비에 비해 강화 보너스가 크다"},"",{color:"gray",extra:[{color:"red",text:"+1"},{color:"red",text:"
+        (+0%)"}],text:"공격력 "},{color:"gray",extra:[{color:"green",text:"+1"},{color:"green",text:"
+        (+0%)"}],text:"방어력 "},{color:"gray",extra:[{color:"light_purple",text:"+1"},{color:"light_purple",text:"
+        (+0%)"}],text:"마력 "},{color:"gray",extra:[{color:"dark_purple",text:"+1"},{color:"dark_purple",text:"
+        (+0%)"}],text:"마방 "},"",{color:"yellow",text:"→ 다음 강화: 0 → 1"},{color:"gray",text:"필요
+        XP: 1000"},{color:"gray",text:"성공 확률: 100%"},{color:"gray",text:"추가: 공격력 +3,
+        방어력 +3, 마력 +3, 마방 +3"}]'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"gold",text:"§6장비 초기화 보상 망토"}'
+      minecraft:custom_data: '{PublicBukkitValues:{"rpgcore:atk":1,"rpgcore:atk_pct":0.0d,"rpgcore:def":1,"rpgcore:def_pct":0.0d,"rpgcore:enh_level":0,"rpgcore:equip_id":"update_cape","rpgcore:hp":0,"rpgcore:hp_pct":0.0d,"rpgcore:mp":0,"rpgcore:mp_pct":0.0d,"rpgcore:spa":1,"rpgcore:spa_pct":0.0d,"rpgcore:spd":1,"rpgcore:spd_pct":0.0d}}'
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4325
+    id: minecraft:wooden_axe
+    count: 1
+    components:
+      minecraft:lore: '["연습용으로 지급되는 기본 도끼","광전사 전용 무기이다","",{extra:[{color:"gray",text:"공격력:
+        "},{color:"red",text:"+3"}],text:""},"",{color:"yellow",text:"→ 다음 강화: 0 →
+        1"},{color:"gray",text:"필요 XP: 1000"},{color:"gray",text:"성공 확률: 100%"},{color:"gray",text:"추가:
+        체력 +4, 공격력 +3"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{color:"gold",text:"광전사 훈련용 도끼"}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"rpgcore:atk":3,"rpgcore:atk_pct":0.0d,"rpgcore:def":0,"rpgcore:def_pct":0.0d,"rpgcore:enh_level":0,"rpgcore:equip_id":"basic_axe","rpgcore:hp":0,"rpgcore:hp_pct":0.0d,"rpgcore:mp":0,"rpgcore:mp_pct":0.0d,"rpgcore:spa":0,"rpgcore:spa_pct":0.0d,"rpgcore:spd":0,"rpgcore:spd_pct":0.0d}}'
+    schema_version: 1

@@ -1,0 +1,9 @@
+# src/main/resources/dungeons.yml
+# 던전 키 (id) 아래에 name, world, x/y/z 만 정의하면 됩니다.
+tutorial:
+  name: "초보자 던전"
+  world: world
+  x: 1000
+  y: 65
+  z: 1000
+  icon: COAL

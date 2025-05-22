@@ -1,0 +1,61 @@
+name: RPGCore
+version: 0.1.0
+main: org.flash.rpgcore.RPGCore
+api-version: "1.21"
+
+commands:
+  rpgcore:
+    description: 메인 명령어
+    usage: /rpgcore reload
+    aliases: [ rpg ]
+    permission: rpgcore.op
+  equip:
+    aliases: [e]
+    description: 장비 GUI를 엽니다
+    usage: /equip
+  stat:
+    aliases: [s]
+    description: 능력치 GUI를 엽니다
+    usage: /stat
+  class:
+    aliases: [c]
+    description: 클래스 선택 GUI를 엽니다
+    usage: /class
+  skill:
+    aliases: [sk, k]
+    description: 스킬창을 엽니다
+    usage: /skill
+  fillmax:
+    description: hp, mp를 모두 채웁니다.
+    usage: /fillmax
+    permission: rpgcore.op
+  trade:
+    description: 플레이어 간 거래 요청/수락/취소
+    usage: /trade request|accept|cancel <플레이어>
+  practice:
+    description: 개인 연습장
+    usage: /practice
+  giveequip:
+    description: Give a custom RPG equipment to a player
+    usage: /<command> <equip_id> [level] [player]
+    permission: rpgcore.op
+    permission-message: "§cYou do not have permission to use this command."
+  giveskill:
+    description: Give a custom RPG skill to a player
+    usage: /giveskill <skillId> [level] [slot]
+    permission: rpgcore.op
+    permission-message: "§cYou do not have permission to use this command."
+  listskills:
+    description: "서버에 로드된 모든 스킬을 출력합니다"
+    usage: /listskills
+    permission: rpgcore.op
+  classreset:
+    description: 전직 취소
+    usage: /classreset <플레이어 이름>
+    permission: rpgcore.op
+
+
+permissions:
+  rpgcore.op:
+    description: RPGCore 관리 명령 사용 권한
+    default: op

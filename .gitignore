@@ -1,0 +1,58 @@
+# Gradle
+.gradle/
+build/
+!build/libs # 빌드된 jar 파일은 필요에 따라 제외하지 않을 수도 있지만, 보통은 제외
+bin/ # Eclipse
+*.jar
+*.war
+*.ear
+
+gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+local.properties # Android
+.DS_Store # macOS
+
+# Logs
+logs/
+*.log
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+
+# Secrets (만약 있다면)
+secrets/
+*.secret
+
+run/cache/
+run/config/
+run/libraries/
+run/logs/
+run/versions/
+run/world/
+run/world_nether/
+run/world_the_end/
+run/banned-ips.json
+run/banned-players.json
+run/whitelist.json
+run/ops.json
+run/permissions.yml
+run/server.properties
+run/plugins/.paper-remapped/
+run/plugins/bStats/
+run/plugins/spark/
+run/bukkit.yml
+run/commands.yml
+run/eula.txt
+run/help.yml
+run/spigot.yml
+run/usercache.json
+run/version_history.json
+
+gradlew.bat
+gradlew
+gradle.properties

@@ -1,0 +1,86 @@
+# src/main/resources/equipment.yml
+
+
+# 1. 무기
+## 1) 도끼 (광전사)
+basic_axe:
+  slot: WEAPON                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_AXE
+  stats:
+    Atk_add:  2
+    Atk_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+## 2) 검 (탱커)
+basic_sword:
+  slot: WEAPON                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_SWORD
+  stats:
+    Atk_add:  2
+    Atk_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+# 2. 방어구
+## 1) 헬맷
+basic_helmet:
+  slot: HEAD                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_HELMET
+  stats:
+    Def_add:  2
+    Def_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+## 2) 흉갑
+basic_chestplate:
+  slot: CHEST                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_CHESTPLATE
+  stats:
+    Def_add:  2
+    Def_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+## 3) 레깅스
+basic_leggings:
+  slot: LEGS                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_LEGGINGS
+  stats:
+    Def_add: 2
+    Def_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+## 4) 신발
+basic_boots:
+  slot: FEET                # 장비 슬롯
+  tier: 1                   # 티어
+  material: IRON_BOOTS
+  stats:
+    Def_add: 2
+    Def_mult: 0.0
+  enhance:
+    max_level: 5            # 최대 강화 레벨
+
+
+# 3. 장신구
+## 1) 반지
+
+## 2) 목걸이
+
+## 3) 귀고리
+
+## 4) 팔찌
+
+## 5) 망토
+
+## 6) 장갑
+
+## 7) 벨트

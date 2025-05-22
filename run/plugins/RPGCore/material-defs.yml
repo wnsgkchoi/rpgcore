@@ -1,0 +1,18 @@
+dragon_scale:
+  display_name: "§c용의 비늘"
+  description:
+    - "고대 용에게서만 얻을 수 있다는 귀한 비늘입니다."
+    - "강력한 장비의 재료로 사용됩니다."
+  material: "SCUTE" # 예시로 거북이 등딱지를 사용, 실제로는 적절한 바닐라 아이템 Material
+
+magic_essence:
+  display_name: "§b마력의 정수"
+  description:
+    - "응축된 마나가 결정화된 형태입니다."
+  material: "AMETHYST_SHARD"
+
+hardened_leather:
+  display_name: "§7경화된 가죽"
+  description:
+    - "특별한 방법으로 무두질되어 일반 가죽보다 훨씬 단단합니다."
+  material: "LEATHER"

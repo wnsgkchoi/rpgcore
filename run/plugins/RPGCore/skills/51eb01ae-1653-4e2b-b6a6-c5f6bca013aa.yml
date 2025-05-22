@@ -1,0 +1,13 @@
+slot1:
+  id: rage_whirlwind
+  level: 1
+slot2:
+  id: last_stand
+  level: 1
+slot3:
+  id: crush_blow
+  level: 1
+learned:
+  rage_whirlwind: 1
+  last_stand: 1
+  crush_blow: 1

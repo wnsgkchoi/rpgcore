@@ -1,0 +1,25 @@
+basic_set1:
+  pieces:
+    - basic_helmet
+    - basic_chestplate
+    - basic_leggings
+    - basic_boots
+    - basic_axe
+  stats:
+    HP_add:   20
+    Atk_add:  5
+    HP_mult:  0.1
+    Atk_mult: 0.05
+
+basic_set2:
+  pieces:
+    - basic_helmet
+    - basic_chestplate
+    - basic_leggings
+    - basic_boots
+    - basic_sword
+  stats:
+    HP_add:   20
+    Def_add:  5
+    HP_mult:  0.1
+    Def_mult: 0.05
